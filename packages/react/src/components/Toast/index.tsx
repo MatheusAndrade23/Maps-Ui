@@ -9,9 +9,14 @@ import { Text } from '../..'
 
 import { ToastContainer } from './styles'
 
-export const Toast = ({ title, description, open }: ToastInputProps) => {
+export const Toast = ({
+  title,
+  description,
+  open,
+  ...props
+}: ToastInputProps) => {
   return (
-    <ToastContainer open={open}>
+    <ToastContainer open={open} {...props}>
       <RadixToast.Title asChild>
         <Heading as="h6" size="sm" css={{ marginBottom: '$2' }}>
           {title}
