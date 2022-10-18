@@ -9,12 +9,7 @@ import { Text } from '../..'
 
 import { ToastContainer } from './styles'
 
-export const Toast = ({
-  title,
-  description,
-  open,
-  ...props
-}: ToastInputProps) => {
+export const Toast = ({ title, description, open, ...props }: ToastProps) => {
   return (
     <ToastContainer open={open} {...props}>
       <RadixToast.Title asChild>
@@ -45,7 +40,7 @@ export const Toast = ({
     </ToastContainer>
   )
 }
-export interface ToastInputProps {
+export interface ToastProps {
   title: string
   description: string
   open: boolean
