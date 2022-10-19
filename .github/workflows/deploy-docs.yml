@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: laVEsRgEyTrhcBwCxdkp7C7m
+          TURBO_TEAM: maps-ui
 
       - name: Deploy storybook
         working-directory: ./packages/docs
