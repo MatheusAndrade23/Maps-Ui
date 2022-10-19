@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Toast, ToastProps, ToastViewport } from '@ignite-ui/react'
+import { Toast, ToastProps, ToastViewport } from '@maps-ui/react'
 
 import * as RadixToast from '@radix-ui/react-toast'
 

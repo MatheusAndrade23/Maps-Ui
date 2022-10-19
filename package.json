@@ -5,10 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset versions",
+    "release": "turbo run build --filter=@ignite-ui/docs && changeset publish"
   },
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0"
+  }
 }

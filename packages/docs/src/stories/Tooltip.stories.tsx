@@ -5,7 +5,7 @@ import {
   Tooltip,
   TooltipProps,
   TooltipProvider,
-} from '@ignite-ui/react'
+} from '@maps-ui/react'
 
 export default {
   title: 'Tooltip/Tooltip',
