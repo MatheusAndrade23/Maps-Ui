@@ -14,22 +14,32 @@ export default {
     size: {
       options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
       control: {
-        type: 'inline-radio',
+        type: 'select',
       },
-      description: 'Text size',
+      description: 'Heading size',
       defaultValue: {
         summary: 'md',
+      },
+      table: {
+        type: {
+          summary: 'sm | md | lg | 2xl | 4xl | 5xl | 6xl',
+        },
       },
     },
     as: {
       options: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
       control: {
-        type: 'inline-radio',
+        type: 'select',
       },
       type: 'string',
-      description: 'HTML Tag',
+      description: 'Heading HTML tag',
       defaultValue: {
         summary: 'h2',
+      },
+      table: {
+        type: {
+          summary: 'h1 | h2 | h3 | h4 | h5 | h6',
+        },
       },
     },
     children: {
@@ -38,6 +48,23 @@ export default {
       required: true,
       control: {
         type: 'text',
+      },
+      table: {
+        type: {
+          summary: 'string',
+        },
+      },
+    },
+    css: {
+      control: 'object',
+      description: 'Tooltip custom styles',
+      defaultValue: {
+        summary: '{}',
+      },
+      table: {
+        type: {
+          summary: 'CSS in JS',
+        },
       },
     },
   },

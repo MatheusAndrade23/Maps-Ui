@@ -3,7 +3,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "changeset": "changeset",
-    "version-packages": "changeset versions",
+    "version-packages": "changeset version",
     "release": "turbo run build --filter=packages/docs && changeset publish"
   },
   "private": true,
@@ -11,6 +11,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.25.0"
+    "@changesets/cli": "^2.25.0",
+    "turbo": "^1.5.5"
   }
 }

@@ -1,5 +1,15 @@
 # @maps-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Heading, Text, Toast, Tooltip docs
+
+### Patch Changes
+
+- c609f54: First Customization
+
 ## 2.0.0
 
 ### Major Changes

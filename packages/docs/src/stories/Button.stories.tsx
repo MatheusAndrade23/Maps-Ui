@@ -31,7 +31,7 @@ export default {
       },
     },
     onClick: {
-      action: 'click',
+      action: 'Clicked!',
     },
   },
 } as Meta<ButtonProps>

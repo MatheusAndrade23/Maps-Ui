@@ -8,7 +8,7 @@ import { Button } from '../..'
 import { Text } from '../..'
 
 import { ToastContainer } from './styles'
-import { useState } from 'react'
+import { ComponentProps, useState } from 'react'
 
 export const Toast = ({ title, description, open, ...props }: ToastProps) => {
   const [visible, setVisible] = useState(open)
@@ -48,7 +48,7 @@ export const Toast = ({ title, description, open, ...props }: ToastProps) => {
     </ToastContainer>
   )
 }
-export interface ToastProps {
+export interface ToastProps extends ComponentProps<typeof ToastContainer> {
   title: string
   description: string
   open: boolean

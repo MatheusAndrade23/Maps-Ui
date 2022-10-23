@@ -1,12 +1,11 @@
 import * as PrimitiveTooltip from '@radix-ui/react-tooltip'
-import { ReactNode } from 'react'
-import { Button } from '../Button'
+import { ReactNode, ComponentProps } from 'react'
 
 import { TooltipContent, TooltipArrow } from './styles'
 
 export const Tooltip = ({
   triggerContent,
-  tooltipContent,
+  content,
   component,
   ...props
 }: TooltipProps) => {
@@ -16,16 +15,16 @@ export const Tooltip = ({
 
       <PrimitiveTooltip.Portal>
         <TooltipContent {...props} sideOffset={5}>
-          {tooltipContent}
+          {content}
           <TooltipArrow />
         </TooltipContent>
       </PrimitiveTooltip.Portal>
     </PrimitiveTooltip.Root>
   )
 }
-export interface TooltipProps {
+export interface TooltipProps extends ComponentProps<typeof TooltipContent> {
   triggerContent: string
-  tooltipContent: string
+  content: string
   component: ReactNode
 }
 
@@ -35,7 +34,8 @@ export const TooltipProvider = ({ children }: TooltipProviderProps) => {
   return <PrimitiveTooltip.Provider>{children}</PrimitiveTooltip.Provider>
 }
 
-export interface TooltipProviderProps {
+export interface TooltipProviderProps
+  extends ComponentProps<typeof PrimitiveTooltip.Provider> {
   children: ReactNode
 }
 
