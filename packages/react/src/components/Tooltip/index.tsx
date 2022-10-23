@@ -7,12 +7,12 @@ import { TooltipContent, TooltipArrow } from './styles'
 export const Tooltip = ({
   triggerContent,
   tooltipContent,
-  children,
+  component,
   ...props
 }: TooltipProps) => {
   return (
     <PrimitiveTooltip.Root>
-      <PrimitiveTooltip.Trigger asChild>{children}</PrimitiveTooltip.Trigger>
+      <PrimitiveTooltip.Trigger asChild>{component}</PrimitiveTooltip.Trigger>
 
       <PrimitiveTooltip.Portal>
         <TooltipContent {...props} sideOffset={5}>
@@ -26,7 +26,7 @@ export const Tooltip = ({
 export interface TooltipProps {
   triggerContent: string
   tooltipContent: string
-  children: ReactNode
+  component: ReactNode
 }
 
 Tooltip.displayName = 'Tooltip'

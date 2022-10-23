@@ -18,6 +18,7 @@ export const Button = styled('button', {
   gap: '$2',
 
   cursor: 'pointer',
+  transition: '.5s',
 
   svg: {
     width: '$4',
@@ -32,10 +33,10 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$ignite500',
+        background: '$maps1',
 
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          background: '$maps2',
         },
 
         '&:disabled': {
@@ -44,12 +45,12 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$maps2',
+        border: '2px solid $maps1',
 
         '&:not(:disabled):hover': {
           color: '$white',
-          background: '$ignite500',
+          background: '$maps1',
         },
 
         '&:disabled': {

@@ -12,10 +12,10 @@ export default {
   component: Tooltip,
   args: {
     tooltipContent: 'This is my tooltip',
-    children: <Button variant="secondary">Hover me</Button>,
+    component: <Button variant="secondary">Hover me</Button>,
   },
   argTypes: {
-    children: {
+    component: {
       control: {
         type: null,
       },

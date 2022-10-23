@@ -8,10 +8,17 @@ import { Button } from '../..'
 import { Text } from '../..'
 
 import { ToastContainer } from './styles'
+import { useState } from 'react'
 
 export const Toast = ({ title, description, open, ...props }: ToastProps) => {
+  const [visible, setVisible] = useState(open)
+
+  const handleClose = () => {
+    setVisible(false)
+  }
+
   return (
-    <ToastContainer open={open} {...props}>
+    <ToastContainer open={visible} {...props}>
       <RadixToast.Title asChild>
         <Heading as="h6" size="sm" css={{ marginBottom: '$2' }}>
           {title}
@@ -24,9 +31,10 @@ export const Toast = ({ title, description, open, ...props }: ToastProps) => {
         </Text>
       </RadixToast.Description>
 
-      <RadixToast.Close asChild>
+      <RadixToast.Action asChild altText="Close">
         <Button
           variant="tertiary"
+          onClick={handleClose}
           css={{
             'min-width': 0,
             position: 'absolute',
@@ -36,7 +44,7 @@ export const Toast = ({ title, description, open, ...props }: ToastProps) => {
         >
           <X size={30} weight="bold" />
         </Button>
-      </RadixToast.Close>
+      </RadixToast.Action>
     </ToastContainer>
   )
 }

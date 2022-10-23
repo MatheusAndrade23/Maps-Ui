@@ -1,8 +1,4 @@
 {
-  "name": "design-system",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",

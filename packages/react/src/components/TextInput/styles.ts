@@ -10,7 +10,7 @@ export const TextInputContainer = styled('div', {
   alignItems: 'baseline',
 
   '&:has(input:focus)': {
-    borderColor: '$ignite300',
+    borderColor: '$maps2',
   },
 
   '&:has(input:disabled)': {
