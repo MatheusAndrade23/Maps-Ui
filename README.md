@@ -5,8 +5,8 @@
 </div>
 
 <p align="center">
- <a href="#docs">Documentation</a> •
  <a href="#intro">Introduction</a> •
+ <a href="#docs">Documentation</a> •
  <a href="#publication">Publication</a> •
  <a href="#tecs">Technologies</a> •
  <a href="#packages">Packages</a> •
@@ -17,15 +17,17 @@
 
 ---
 
+<br />
+
 <h2 id="intro">Introduction</h2>
 
-To install the components package:
+### To install the components package:
 
 ```sh
 npm install @maps-ui/react
 ```
 
-To use the components:
+### To use the components:
 
 ```js
 import { Button, Box, Tooltip, TooltipProvider } from '@maps-ui/react'
@@ -43,29 +45,17 @@ export const MyPage = () => {
 }
 ```
 
-Result:
+### Result:
 
 <img src="https://user-images.githubusercontent.com/84635540/197596732-f20ca6bd-623d-49c3-b0c2-74803305b95f.gif"/>
 
-<br />
-
----
-
 <h2 id="docs">Documentation</h2>
 
-To access the complete documentation and see how to use and customize each component, <a href="https://matheusandrade23.github.io/Design-System/?path=/story/home--page">click here.</a>
-
-<br />
-
----
+To access the complete documentation and see how to use and customize each component, <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/home--page">click here.</a>
 
 <h2 id="publication">Publication</h2>
 
 The project was published on `npm`, Node package manager, so anyone who wants can download it and use it in their applications. <a href="https://www.npmjs.com/package/@maps-ui/react">Click here to visit.</a>
-
-<br />
-
----
 
 <h2 id="tecs">Technologies</h2>
 
@@ -84,17 +74,13 @@ The project was published on `npm`, Node package manager, so anyone who wants ca
   <img align="center" alt="Storybook" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg">
 </div>
 
-<br />
-
----
-
 <h2 id="s">Packages</h2>
 
 Maps Ui consists of 2 packages: **Tokens** and **React**. The components are in the React package: `npm i @maps-ui/react` and the Tokens, which consist of colors, font sizes and weights, spacings and so on, are in the other package: `npm i @maps-ui/ tokens`.
 
-<a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/react">Click here to see how to use the components.</a>
+- <a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/react">Click here to see how to use the components.</a>
 
-<a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/tokens">Click here to see how to use the tokens.</a>
+- <a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/tokens">Click here to see how to use the tokens.</a>
 
 <br />
 

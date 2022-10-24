@@ -1,7 +1,7 @@
 <h1 align="center">Maps Ui - React ⚛️</h1>
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/84635540/197596859-54121500-97f8-4a12-8439-05e306a085e5.png" width="450px" alt="Pexels Colors Image"/>
+ <img src="https://user-images.githubusercontent.com/84635540/197596859-54121500-97f8-4a12-8439-05e306a085e5.png" width="450px" alt="Pexels React Image"/>
 </div>
 
 <p align="center">
@@ -14,7 +14,7 @@
 <h3 align="center">Package with  many customizable React components to use in your projects.</h3>
 
 <h4 align="center">
-  <a href="">Access Documentation</a> -
+  <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/home--page">Access Documentation</a> -
   <a href="https://www.npmjs.com/package/@maps-ui/react"> View on NPM</a>
 </h4>
 
@@ -70,19 +70,39 @@ To access the complete documentation and see how to use and customize each compo
 
 These are currently the components available for use:
 
-- <a href="">Box</a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/surfaces-box--primary">
+    Box
+  </a>
 
-- <a href="">Button</a>
-- <a href="">Check box</a>
-- <a href="">Multi Step</a>
-- <a href="">Text Area</a>
-- <a href="">Text Input</a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/form-button--primary">
+    Button
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/form-check-box--primary">
+    Check box
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/form-multi-step--primary">
+    Multi Step
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/form-text-area--primary">
+    Text Area
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/form-text-input--primary">
+    Text Input
+  </a>
 
-- <a href="">Heading</a>
-- <a href="">Text</a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/typography-heading--primary">
+    Heading
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/typography-text--primary">
+    Text
+  </a>
 
-- <a href="">Toast</a>
-- <a href="">Tooltip</a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/special-toast--primary">
+    Toast
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/special-tooltip--primary">
+    Tooltip
+  </a>
 
 <br />
 
