@@ -17,8 +17,6 @@
 
 ---
 
-<br />
-
 <h2 id="intro">Introduction</h2>
 
 ### To install the components package:
