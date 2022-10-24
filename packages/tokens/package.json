@@ -1,17 +1,29 @@
 {
   "name": "@maps-ui/tokens",
-  "version": "1.4.0",
-  "description": "",
+  "version": "1.4.1",
+  "description": "Package with Tokens based on the biggest Ui libraries to use in your projects.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/tokens"
+  },
+  "homepage": "https://matheusandrade23.github.io/Maps-Ui/?path=/docs/package-tokens--page",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Maps-Ui",
+    "React",
+    "Storybook",
+    "JavaScript",
+    "TypeScript",
+    "NPM"
+  ],
+  "author": "Matheus Andrade",
   "license": "MIT",
   "devDependencies": {
     "@maps-ui/ts-config": "*",

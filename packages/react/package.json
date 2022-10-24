@@ -1,17 +1,29 @@
 {
   "name": "@maps-ui/react",
-  "version": "2.4.0",
-  "description": "",
+  "version": "2.4.1",
+  "description": "Package with many customizable React components to use in your projects.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/react"
+  },
+  "homepage": "https://matheusandrade23.github.io/Maps-Ui/?path=/docs/package-react--page",
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Maps-Ui",
+    "React",
+    "Storybook",
+    "JavaScript",
+    "TypeScript",
+    "NPM"
+  ],
+  "author": "Matheus Andrade",
   "license": "MIT",
   "devDependencies": {
     "@maps-ui/eslint-config": "*",

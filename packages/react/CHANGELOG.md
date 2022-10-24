@@ -1,5 +1,11 @@
 # @maps-ui/react
 
+## 2.4.1
+
+### Patch Changes
+
+- Update package.json for NPM
+
 ## 2.4.0
 
 ### Minor Changes

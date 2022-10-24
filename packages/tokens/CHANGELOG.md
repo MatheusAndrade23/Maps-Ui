@@ -1,5 +1,11 @@
 # @maps-ui/tokens
 
+## 1.4.1
+
+### Patch Changes
+
+- Update package.json for NPM
+
 ## 1.4.0
 
 ### Minor Changes
