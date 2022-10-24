@@ -4,6 +4,13 @@ import { Heading, HeadingProps } from '@maps-ui/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
+  parameters: {
+    docs: {
+      description: {
+        component: '<br> ### A customizable title component for your page',
+      },
+    },
+  },
   args: {
     children: 'Custom Heading',
     size: 'md',
@@ -45,7 +52,6 @@ export default {
     children: {
       type: 'string',
       description: 'Heading text',
-      required: true,
       control: {
         type: 'text',
       },
@@ -81,7 +87,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'By default, the Heading will always be an `h2` tag, but you can change this with the `as` property:',
+          'By default, the Heading will always be a `h2` tag, but you can change this with the `as` property, passing `h1` | `h2` | `h3` | `h4` | `h5` | `h6`. In this case, the component is a `h1` heading',
       },
     },
   },
@@ -96,7 +102,7 @@ export const CustomSize: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'By default, the Heading has a medium (md) size, but you can change this by passing one of the size options through the `size` property:',
+          'By default, the Heading has a `md` size, but you can change this by passing one of the size options through the `size` property, passing `sm` | `md` | `lg` | `2xl` | `4xl` | `5xl` | `6xl`.',
       },
     },
   },
@@ -111,7 +117,7 @@ export const CustomCSS: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'The component has a default style, however, it is possible to change any style by passing an object through the `css` property:',
+          'The component has a default style, however, it is possible to change any style by passing an  object `CSS in JS` through the `css` property: `{ color: "#1065C0" }`',
       },
     },
   },

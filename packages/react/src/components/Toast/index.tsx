@@ -8,7 +8,7 @@ import { Button } from '../..'
 import { Text } from '../..'
 
 import { ToastContainer } from './styles'
-import { ComponentProps, useState } from 'react'
+import { ComponentProps, ReactNode, useState } from 'react'
 
 export const Toast = ({ title, description, open, ...props }: ToastProps) => {
   const [visible, setVisible] = useState(open)
@@ -73,3 +73,14 @@ export const ToastViewport = styled(RadixToast.Viewport, {
 })
 
 ToastViewport.displayName = 'Viewport'
+
+export const ToastProvider = ({ children, ...props }: ToastProviderProps) => {
+  return <RadixToast.Provider {...props}>{children}</RadixToast.Provider>
+}
+
+export interface ToastProviderProps
+  extends ComponentProps<typeof RadixToast.Provider> {
+  children: ReactNode
+}
+
+ToastProvider.displayName = 'ToastProvider'

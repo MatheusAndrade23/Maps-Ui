@@ -4,7 +4,58 @@ import { Box, Text, TextArea, TextAreaProps } from '@maps-ui/react'
 export default {
   title: 'Form/Text Area',
   component: TextArea,
-  args: {},
+  parameters: {
+    docs: {
+      description: {
+        component: '<br> ### A customizable text area component for your page',
+      },
+    },
+  },
+  args: {
+    placeholder: 'Add any observations...',
+    disabled: false,
+    css: {},
+  },
+  argTypes: {
+    placeholder: {
+      type: 'string',
+      description: 'Placeholder text',
+      control: {
+        type: 'text',
+      },
+      table: {
+        type: {
+          summary: 'string',
+        },
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+      table: {
+        type: {
+          summary: 'true | false',
+        },
+      },
+      defaultValue: {
+        summary: 'false',
+      },
+      description: 'If the text area is disabled or not',
+    },
+    css: {
+      control: 'object',
+      description: 'Toast custom styles',
+      defaultValue: {
+        summary: '{}',
+      },
+      table: {
+        type: {
+          summary: 'CSS in JS',
+        },
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -20,14 +71,39 @@ export default {
   ],
 } as Meta<TextAreaProps>
 
-export const Primary: StoryObj<TextAreaProps> = {
-  args: {
-    placeholder: 'Add any observations...',
-  },
-}
+export const Primary: StoryObj<TextAreaProps> = {}
 
 export const Disabled: StoryObj<TextAreaProps> = {
   args: {
     disabled: true,
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'You can also choose whether the text area is enabled or not, via the `disabled` property, passing: `true` | `false`.',
+      },
+    },
+  },
+}
+
+export const CustomCSS: StoryObj<TextAreaProps> = {
+  args: {
+    placeholder: 'Add any observations...',
+    disabled: false,
+    css: {
+      '&:focus': {
+        outline: 0,
+        borderColor: '#00875F',
+      },
+    },
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'The component has a default style, however, it is possible to change any style by passing an  object `CSS in JS` through the `css` property: `{ &:focus: { outline: 0, borderColor: #00875F} }`',
+      },
+    },
   },
 }

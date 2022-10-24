@@ -1,12 +1,4 @@
-import {
-  colors,
-  fontSizes,
-  fontWeights,
-  fonts,
-  lineHeights,
-  radii,
-  space,
-} from '@maps-ui/tokens'
+import * as Tokens from '@maps-ui/tokens'
 
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
@@ -27,12 +19,6 @@ export const {
   },
 
   theme: {
-    colors,
-    fontSizes,
-    fontWeights,
-    fonts,
-    lineHeights,
-    radii,
-    space,
+    ...Tokens,
   },
 })

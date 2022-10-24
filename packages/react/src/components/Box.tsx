@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps } from 'react'
 import { styled } from '../styles'
 
 export const Box = styled('div', {
@@ -9,7 +9,18 @@ export const Box = styled('div', {
 })
 
 export interface BoxProps extends ComponentProps<typeof Box> {
-  as?: ElementType
+  as?:
+    | 'div'
+    | 'label'
+    | 'section'
+    | 'ol'
+    | 'ul'
+    | 'header'
+    | 'nav'
+    | 'main'
+    | 'aside'
+    | 'footer'
+    | 'table'
 }
 
 Box.displayName = 'Box'

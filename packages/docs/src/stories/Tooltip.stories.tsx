@@ -8,11 +8,11 @@ import {
 } from '@maps-ui/react'
 
 export default {
-  title: 'Tooltip/Tooltip',
+  title: 'Special/Tooltip',
   component: Tooltip,
   args: {
-    content: 'This is my tooltip',
-    component: <Button variant="secondary">Hover me</Button>,
+    content: 'Send Content',
+    children: <Button variant="secondary">Send</Button>,
     css: {},
   },
   argTypes: {
@@ -27,7 +27,7 @@ export default {
         },
       },
     },
-    component: {
+    children: {
       description: 'The component that needs the Tooltip',
       control: {
         type: null,

@@ -1,0 +1,82 @@
+import { Meta } from '@storybook/addon-docs'
+import { Button, Box, Tooltip, TooltipProvider } from '@maps-ui/react'
+
+<Meta title="Package - React" />
+
+# React ⚛️
+
+---
+
+<br />
+
+<h3>
+  Package with many customizable React components to use in your projects.
+</h3>
+
+<h4>
+  <a href="https://www.npmjs.com/package/@maps-ui/react"> View on NPM</a>
+</h4>
+
+<br />
+
+<h2 id="intro">Introduction</h2>
+
+#### To install:
+
+```sh
+npm install @maps-ui/react
+```
+
+#### To use the components:
+
+```js
+import { Button, Box, Tooltip, TooltipProvider } from '@maps-ui/react'
+
+export const MyPage = () => {
+  return (
+    <TooltipProvider>
+      <Box as="section" css={{ padding: '55px' }}>
+        <Tooltip content="Send Content">
+          <Button variant="secondary">Send</Button>
+        </Tooltip>
+      </Box>
+    </TooltipProvider>
+  )
+}
+```
+
+#### Result:
+
+<TooltipProvider>
+  <Box as="section" css={{ padding: '55px' }}>
+    <Tooltip content="Send Content">
+      <Button variant="secondary">Send</Button>
+    </Tooltip>
+  </Box>
+</TooltipProvider>
+
+<br />
+
+<h2 id="components">Components</h2>
+
+These are currently the components available for use:
+
+- <a href="">Box</a>
+
+- <a href="">Button</a>
+- <a href="">Check box</a>
+- <a href="">Multi Step</a>
+- <a href="">Text Area</a>
+- <a href="">Text Input</a>
+
+- <a href="">Heading</a>
+- <a href="">Text</a>
+
+- <a href="">Toast</a>
+- <a href="">Tooltip</a>
+
+<br />
+
+---
+
+<p>🌟 If you liked it, consider giving it a star on GitHub! 🌟</p>

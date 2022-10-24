@@ -1,28 +1,56 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Toast, ToastProps, ToastViewport, Text, Box } from '@maps-ui/react'
+import {
+  Toast,
+  ToastProps,
+  ToastViewport,
+  Text,
+  Box,
+  ToastProvider,
+} from '@maps-ui/react'
 
-import * as RadixToast from '@radix-ui/react-toast'
 export default {
-  title: 'Toast/Toast',
+  title: 'Special/Toast',
   component: Toast,
+  parameters: {
+    docs: {
+      description: {
+        component: '<br> ### A customizable tooltip component for your page',
+      },
+    },
+  },
   args: {
     title: 'Custom title',
     description: 'Custom description',
-    open: false,
+    open: true,
     css: {},
   },
   argTypes: {
     title: {
       description: 'Toast title',
+      table: {
+        type: {
+          summary: 'string',
+        },
+      },
     },
     open: {
       description: 'If the toast is visible or not',
       defaultValue: {
         summary: 'false',
       },
+      table: {
+        type: {
+          summary: 'true | false',
+        },
+      },
     },
     description: {
       description: 'Toast description',
+      table: {
+        type: {
+          summary: 'string',
+        },
+      },
     },
     css: {
       control: 'object',
@@ -44,10 +72,10 @@ export default {
           <Box>
             <Text>See the toast in the lower right corner of the screen!</Text>
           </Box>
-          <RadixToast.Provider swipeDirection="right">
+          <ToastProvider swipeDirection="right">
             {Story()}
             <ToastViewport />
-          </RadixToast.Provider>
+          </ToastProvider>
         </>
       )
     },

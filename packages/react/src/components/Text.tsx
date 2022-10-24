@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -31,7 +31,22 @@ export const Text = styled('p', {
 })
 
 export interface TextProps extends ComponentProps<typeof Text> {
-  as?: ElementType
+  as?:
+    | 'p'
+    | 'strong'
+    | 'span'
+    | 'em'
+    | 'blockquote'
+    | 'pre'
+    | 'li'
+    | 'dt'
+    | 'dd'
+    | 'del'
+    | 'sup'
+    | 'sub'
+    | 'small'
+    | 'i'
+    | 'b'
 }
 
 Text.displayName = 'Text'

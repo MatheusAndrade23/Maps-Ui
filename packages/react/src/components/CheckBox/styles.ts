@@ -23,6 +23,10 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   '&:focus': {
     border: '2px solid $maps2',
   },
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
 })
 
 const slideIn = keyframes({
