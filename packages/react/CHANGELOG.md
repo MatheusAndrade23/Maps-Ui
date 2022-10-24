@@ -1,5 +1,11 @@
 # @maps-ui/react
 
+## 2.3.0
+
+### Minor Changes
+
+- Fix README.md
+
 ## 2.2.0
 
 ### Minor Changes

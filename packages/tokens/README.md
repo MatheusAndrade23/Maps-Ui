@@ -1,7 +1,7 @@
 <h1 align="center">Maps Ui - Tokens 🎨</h1>
 
 <div align="center">
- <img src="../../github/colors.png" width="450px" alt="Pexels Colors Image"/>
+ <img src="https://user-images.githubusercontent.com/84635540/197596998-05857062-5f53-434f-9a95-a01c98b61c3f.png" width="450px" alt="Pexels Colors Image"/>
 </div>
 
 <p align="center">
@@ -18,7 +18,7 @@
   <a href="https://www.npmjs.com/package/@maps-ui/tokens"> View on NPM</a>
 </h4>
 
----
+<br />
 
 <h2 id="tokens">Available Tokens</h2>
 
@@ -37,6 +37,8 @@ Inside the tokens, there are default parameters for:
 <br />
 
 ---
+
+<br />
 
 <h2 id="intro">Introduction</h2>
 
@@ -65,6 +67,8 @@ OBS: In this case, it was used with <a href="https://stitches.dev/">Stitches</a>
 <br />
 
 ---
+
+<br />
 
 <h2 id="config">Set Tokens as Default (Stitches)</h2>
 
@@ -137,8 +141,4 @@ export const Text = styled('p', {
 
 <br />
 
----
-
 <p align="center">🌟 If you liked it, consider giving it a star! 🌟</p>
-<div id="footer" align="center"><a href="https://www.linkedin.com/in/matheus-andrade23/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href = "mailto:matheusandrade.ma2003@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a></div>

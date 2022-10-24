@@ -1,5 +1,11 @@
 # @maps-ui/tokens
 
+## 1.3.0
+
+### Minor Changes
+
+- Fix README.md
+
 ## 1.2.0
 
 ### Minor Changes

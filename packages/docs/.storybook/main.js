@@ -15,7 +15,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/maps-ui/'
+      config.base = '/Maps-Ui/'
     }
 
     return config

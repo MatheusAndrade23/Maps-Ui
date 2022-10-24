@@ -1,7 +1,7 @@
 <h1 align="center">Maps Ui - React ⚛️</h1>
 
 <div align="center">
- <img src="../../github/react.png" width="450px" alt="Pexels Colors Image"/>
+ <img src="https://user-images.githubusercontent.com/84635540/197596859-54121500-97f8-4a12-8439-05e306a085e5.png" width="450px" alt="Pexels Colors Image"/>
 </div>
 
 <p align="center">
@@ -18,7 +18,7 @@
   <a href="https://www.npmjs.com/package/@maps-ui/react"> View on NPM</a>
 </h4>
 
----
+<br />
 
 <h2 id="intro">Introduction</h2>
 
@@ -48,11 +48,13 @@ export const MyPage = () => {
 
 Result:
 
-<img src="../../github/readme-example.gif" />
+<img src="https://user-images.githubusercontent.com/84635540/197596732-f20ca6bd-623d-49c3-b0c2-74803305b95f.gif" />
 
 <br />
 
 ---
+
+<br />
 
 <h2 id="docs">Documentation</h2>
 
@@ -61,6 +63,8 @@ To access the complete documentation and see how to use and customize each compo
 <br />
 
 ---
+
+<br />
 
 <h2 id="components">Components</h2>
 
@@ -85,5 +89,3 @@ These are currently the components available for use:
 ---
 
 <p align="center">🌟 If you liked it, consider giving it a star! 🌟</p>
-<div id="footer" align="center"><a href="https://www.linkedin.com/in/matheus-andrade23/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href = "mailto:matheusandrade.ma2003@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a></div>

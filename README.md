@@ -1,7 +1,7 @@
 <h1 align="center">Maps Ui 🗺️</h1>
 
 <div align="center">
- <img src="https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px" alt="FreePick Map Image"/>
+ <img src="https://user-images.githubusercontent.com/84635540/197596655-b1acc048-b0f4-4a01-9d9e-3655f1dce0b2.jpg" width="400px" alt="FreePick Map Image"/>
 </div>
 
 <p align="center">
@@ -45,7 +45,7 @@ export const MyPage = () => {
 
 Result:
 
-<img src="./github/readme-example.gif"/>
+<img src="https://user-images.githubusercontent.com/84635540/197596732-f20ca6bd-623d-49c3-b0c2-74803305b95f.gif"/>
 
 <br />
 
@@ -92,9 +92,9 @@ The project was published on `npm`, Node package manager, so anyone who wants ca
 
 Maps Ui consists of 2 packages: **Tokens** and **React**. The components are in the React package: `npm i @maps-ui/react` and the Tokens, which consist of colors, font sizes and weights, spacings and so on, are in the other package: `npm i @maps-ui/ tokens`.
 
-<a href="">Click here to see how to use the components.</a>
+<a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/react">Click here to see how to use the components.</a>
 
-<a href="">Click here to see how to use the tokens.</a>
+<a href="https://github.com/MatheusAndrade23/Maps-Ui/tree/main/packages/tokens">Click here to see how to use the tokens.</a>
 
 <br />
 

@@ -1,5 +1,17 @@
 # @maps-ui/docs
 
+## 1.3.0
+
+### Minor Changes
+
+- Fix README.md
+
+### Patch Changes
+
+- Updated dependencies
+  - @maps-ui/react@2.3.0
+  - @maps-ui/tokens@1.3.0
+
 ## 1.2.0
 
 ### Minor Changes
