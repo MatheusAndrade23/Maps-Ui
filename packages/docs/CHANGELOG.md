@@ -1,5 +1,13 @@
 # @maps-ui/docs
 
+## 1.4.1
+
+### Patch Changes
+
+- Fix Readme
+- Updated dependencies
+  - @maps-ui/react@2.4.2
+
 ## 1.4.0
 
 ### Minor Changes

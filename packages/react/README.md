@@ -58,7 +58,7 @@ Result:
 
 <h2 id="docs">Documentation</h2>
 
-To access the complete documentation and see how to use and customize each component, <a href="https://matheusandrade23.github.io/Design-System/?path=/story/home--page">click here.</a>
+To access the complete documentation and see how to use and customize each component, <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/home--page">click here.</a>
 
 <br />
 

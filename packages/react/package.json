@@ -1,6 +1,6 @@
 {
   "name": "@maps-ui/react",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Package with many customizable React components to use in your projects.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

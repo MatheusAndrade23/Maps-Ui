@@ -1,5 +1,11 @@
 # @maps-ui/react
 
+## 2.4.2
+
+### Patch Changes
+
+- Fix Readme
+
 ## 2.4.1
 
 ### Patch Changes
