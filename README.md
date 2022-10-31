@@ -1,6 +1,16 @@
 <h1 align="center">Maps Ui 🗺️</h1>
 
 <div align="center">
+  <img src="https://img.shields.io/github/license/MatheusAndrade23/Maps-Ui?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/MatheusAndrade23/Maps-Ui?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/MatheusAndrade23/Maps-Ui?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/forks/MatheusAndrade23/Maps-Ui?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/v/release/MatheusAndrade23/Maps-Ui?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/npm/dt/@maps-ui/react?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/repo-size/MatheusAndrade23/Maps-Ui?color=blue&label=size&style=for-the-badge"/>
+</div>
+
+<div align="center" style="display: inline_block"><br />
  <img src="https://user-images.githubusercontent.com/84635540/197596655-b1acc048-b0f4-4a01-9d9e-3655f1dce0b2.jpg" width="400px" alt="FreePick Map Image"/>
 </div>
 
