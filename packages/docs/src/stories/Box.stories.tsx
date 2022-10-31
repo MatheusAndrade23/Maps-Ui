@@ -1,6 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
 import { Box, BoxProps, Text } from '@maps-ui/react'
-
 export default {
   title: 'Surfaces/Box',
   component: Box,
@@ -12,18 +11,14 @@ export default {
     },
   },
   args: {
-    children: (
-      <>
-        <Text>This is my box</Text>
-      </>
-    ),
-    css: {},
-    as: 'div',
+    children: <Text>This is my box</Text>,
+    css: undefined,
+    as: undefined,
   },
   argTypes: {
     children: {
       type: 'string',
-      description: 'Children of the box',
+      description: 'Box Children',
       control: {
         type: 'null',
       },
@@ -35,10 +30,7 @@ export default {
     },
     css: {
       control: 'object',
-      description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
+      description: 'Box custom styles',
       table: {
         type: {
           summary: 'CSS in JS',
@@ -63,9 +55,9 @@ export default {
         type: 'select',
       },
       type: 'string',
-      description: 'Heading HTML tag',
+      description: 'Box HTML tag',
       defaultValue: {
-        summary: 'h2',
+        summary: 'div',
       },
       table: {
         type: {

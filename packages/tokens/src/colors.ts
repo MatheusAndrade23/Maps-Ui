@@ -11,7 +11,7 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  maps1: '#0747A1',
-  maps2: '#1065C0',
   maps3: '#1477D2',
+  maps2: '#1065C0',
+  maps1: '#0747A1',
 }

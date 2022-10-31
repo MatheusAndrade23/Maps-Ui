@@ -13,9 +13,9 @@ export default {
   },
   args: {
     children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    size: 'md',
-    as: 'p',
-    css: {},
+    size: undefined,
+    as: undefined,
+    css: undefined,
   },
   argTypes: {
     size: {
@@ -83,9 +83,6 @@ export default {
     css: {
       control: 'object',
       description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

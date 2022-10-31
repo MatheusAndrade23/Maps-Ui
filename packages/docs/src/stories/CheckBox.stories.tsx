@@ -11,14 +11,11 @@ export default {
       },
     },
   },
-  args: { css: {}, disabled: false },
+  args: { css: undefined, disabled: undefined },
   argTypes: {
     css: {
       control: 'object',
       description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

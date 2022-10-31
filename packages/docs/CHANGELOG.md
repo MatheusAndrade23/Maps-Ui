@@ -1,5 +1,14 @@
 # @maps-ui/docs
 
+## 1.4.2
+
+### Patch Changes
+
+- New Docs
+- Updated dependencies
+  - @maps-ui/react@2.4.3
+  - @maps-ui/tokens@1.4.2
+
 ## 1.4.1
 
 ### Patch Changes

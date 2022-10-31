@@ -13,8 +13,8 @@ export default {
   },
   args: {
     placeholder: 'Add any observations...',
-    disabled: false,
-    css: {},
+    disabled: undefined,
+    css: undefined,
   },
   argTypes: {
     placeholder: {
@@ -46,9 +46,6 @@ export default {
     css: {
       control: 'object',
       description: 'Toast custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

@@ -13,16 +13,16 @@ export default {
     },
   },
   args: {
-    size: 4,
-    currentStep: 1,
-    css: {},
+    size: undefined,
+    currentStep: undefined,
+    css: undefined,
   },
   argTypes: {
     size: {
       control: { type: 'number', min: 1, max: 10, step: 1 },
       description: 'Number of steps',
       defaultValue: {
-        summary: '1',
+        summary: '4',
       },
       table: {
         type: {
@@ -45,9 +45,6 @@ export default {
     css: {
       control: 'object',
       description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

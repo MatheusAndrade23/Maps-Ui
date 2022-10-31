@@ -1,5 +1,11 @@
 # @maps-ui/react
 
+## 2.4.3
+
+### Patch Changes
+
+- New Docs
+
 ## 2.4.2
 
 ### Patch Changes

@@ -15,7 +15,7 @@
 
 <h4 align="center">
   <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/home--page">Access Documentation</a> -
-  <a href="https://www.npmjs.com/package/@maps-ui/react"> View on NPM</a>
+  <a href="https://github.com/MatheusAndrade23/Maps-Ui"> View on GitHub</a>
 </h4>
 
 <br />
@@ -108,4 +108,7 @@ These are currently the components available for use:
 
 ---
 
-<p align="center">🌟 If you liked it, consider giving it a star! 🌟</p>
+<p>
+  🌟 If you liked it, consider giving it a star on
+  <a href="https://github.com/MatheusAndrade23/Maps-Ui"> GitHub!</a> 🌟
+</p>

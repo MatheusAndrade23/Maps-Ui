@@ -15,10 +15,10 @@ export default {
   },
   args: {
     children: 'Send',
-    variant: 'primary',
-    size: 'md',
-    disabled: false,
-    css: {},
+    variant: undefined,
+    size: undefined,
+    disabled: undefined,
+    css: undefined,
   },
   argTypes: {
     variant: {
@@ -79,9 +79,6 @@ export default {
     css: {
       control: 'object',
       description: 'Button custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

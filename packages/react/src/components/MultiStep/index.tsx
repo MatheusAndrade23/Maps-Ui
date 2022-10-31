@@ -8,7 +8,7 @@ export interface MultiStepProps
 }
 
 export const MultiStep = ({
-  size,
+  size = 4,
   currentStep = 1,
   ...props
 }: MultiStepProps) => {

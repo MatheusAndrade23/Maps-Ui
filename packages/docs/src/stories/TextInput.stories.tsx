@@ -13,9 +13,9 @@ export default {
   },
   args: {
     placeholder: 'Type your email',
-    disabled: false,
-    prefix: '',
-    css: {},
+    disabled: undefined,
+    prefix: undefined,
+    css: undefined,
   },
   argTypes: {
     disabled: {
@@ -59,9 +59,6 @@ export default {
     css: {
       control: 'object',
       description: 'Toast custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

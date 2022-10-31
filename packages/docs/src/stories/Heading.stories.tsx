@@ -13,9 +13,9 @@ export default {
   },
   args: {
     children: 'Custom Heading',
-    size: 'md',
-    as: 'h2',
-    css: {},
+    size: undefined,
+    as: undefined,
+    css: undefined,
   },
   argTypes: {
     size: {
@@ -64,9 +64,6 @@ export default {
     css: {
       control: 'object',
       description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

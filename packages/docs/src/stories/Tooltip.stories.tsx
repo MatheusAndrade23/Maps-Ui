@@ -13,7 +13,7 @@ export default {
   args: {
     content: 'Send Content',
     children: <Button variant="secondary">Send</Button>,
-    css: {},
+    css: undefined,
   },
   argTypes: {
     content: {
@@ -41,9 +41,6 @@ export default {
     css: {
       control: 'object',
       description: 'Tooltip custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

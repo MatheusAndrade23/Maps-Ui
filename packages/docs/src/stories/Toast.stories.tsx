@@ -22,7 +22,7 @@ export default {
     title: 'Custom title',
     description: 'Custom description',
     open: true,
-    css: {},
+    css: undefined,
   },
   argTypes: {
     title: {
@@ -55,9 +55,6 @@ export default {
     css: {
       control: 'object',
       description: 'Toast custom styles',
-      defaultValue: {
-        summary: '{}',
-      },
       table: {
         type: {
           summary: 'CSS in JS',

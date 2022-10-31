@@ -1,5 +1,11 @@
 # @maps-ui/tokens
 
+## 1.4.2
+
+### Patch Changes
+
+- New Docs
+
 ## 1.4.1
 
 ### Patch Changes

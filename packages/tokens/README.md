@@ -15,7 +15,7 @@
 
 <h4 align="center">
   <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/home--page">Access Documentation</a> -
-  <a href="https://www.npmjs.com/package/@maps-ui/tokens"> View on NPM</a>
+  <a href="https://github.com/MatheusAndrade23/Maps-Ui">View on GitHub</a>
 </h4>
 
 <br />
@@ -24,13 +24,29 @@
 
 Inside the tokens, there are default parameters for:
 
-- Colors
-- Font Sizes
-- Font Weights
-- Font Families
-- Line Heights
-- Radii
-- Space
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-colors--page">
+    Colors
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-font-sizes--page">
+    Font Sizes
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-font-weights--page">
+    Font Weights
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-font-families--page">
+    Font Families
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-line-heights--page">
+    Line Heights
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-radii--page">
+    Radii
+  </a>
+- <a href="https://matheusandrade23.github.io/Maps-Ui/?path=/docs/tokens-space--page">
+    Space
+  </a>
+
+---
 
 <a href="">Click here to see all tokens.</a>
 
@@ -79,12 +95,12 @@ There is a way to set the tokens as the default for each given category:
 ### Folder structure
 
 ```shell
-  root
-   └── src
-       ├── components
-       │    └── Text.jsx
-       └── styles
-            └── index.js
+root
+ └── src
+      ├── components
+      │    └── Text.jsx
+      └── styles
+           └── index.js
 ```
 
 ##
@@ -141,4 +157,7 @@ export const Text = styled('p', {
 
 <br />
 
-<p align="center">🌟 If you liked it, consider giving it a star! 🌟</p>
+<p>
+  🌟 If you liked it, consider giving it a star on
+  <a href="https://github.com/MatheusAndrade23/Maps-Ui"> GitHub!</a> 🌟
+</p>
